@@ -1,0 +1,14 @@
+.contact--page {
+    min-height: 20vh;
+    background-color: var(--color-bgblack);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact--page p {
+    color: var(--color-white);
+    font-family: var(--font-base);
+    font-size: 3rem;
+    font-weight: 700;
+}

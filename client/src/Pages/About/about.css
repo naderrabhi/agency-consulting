@@ -1,0 +1,36 @@
+.about--page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.about--page_img {
+    width: 560px;
+    max-height: 100%;
+}
+
+.about--page_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.about--page_content h1 {
+    font-family: var(--font-base);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.about--page_content p {
+    font-family: var(--font-base);
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    color: var(--color-gray);
+}

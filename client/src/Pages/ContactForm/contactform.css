@@ -1,0 +1,58 @@
+.app___formcontrol {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#contact-form {
+    width: 65%;
+    height: auto;
+    padding: 2rem 4rem;
+}
+
+#contact-form h1 {
+    text-align: center;
+    font-family: var(--font-base);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.app__formcontrol-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.app__formcontrol-info p {
+    font-family: var(--font-base);
+    font-size: 1.4rem;
+}
+
+.app__formcontrol-info span {
+    font-weight: bold;
+}
+@media screen and (max-width: 1150px) {
+    #contact-form {
+        width: 75%;
+    }
+    .app___formcontrol {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #contact-form {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 456px) {
+    #contact-form {
+        width: 95%;
+        padding: 2rem 1.2rem;
+    }
+}

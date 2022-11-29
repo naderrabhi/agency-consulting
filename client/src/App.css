@@ -1,0 +1,39 @@
+.section__padding {
+    padding: 4rem 6rem;
+}
+
+.btn--costum {
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--color-black);
+    background: var(--color-bleu);
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    padding: 0 50px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.btn--costum_hover:hover{
+    background: var(--color-yellow);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+    
+@media screen and (max-width: 850px) {
+    .section__padding {
+        padding: 4rem;
+    }
+}
+    
+@media screen and (max-width: 650px) {
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+}

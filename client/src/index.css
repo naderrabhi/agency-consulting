@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root {
+  --font-base: 'Crimson Text', serif;
+  
+  --color-white: #FFFFFF;
+  --color-yellow: #ffdc60;
+  --color-bleu: #82cefd;
+  --color-black: #0C0C0C;
+  --color-gray: #9ca1b0;
+  --color-bgblack: #292930;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
