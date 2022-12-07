@@ -2,6 +2,33 @@
     padding: 4rem 6rem;
 }
 
+/*Service CSS*/
+
+.header--h {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.minitext--p {
+    font-size: 1.4rem;
+    color: var(--color-yellow);
+    font-weight: 700;
+}
+
+.text--p {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.service--img {
+    width: 400px;
+    height: 560px;
+}
+
+.service--w {
+    width: 40%;
+}
+
 .btn--costum {
     display: inline-block;
     border: none;
